@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 4762e60e790b86843adb77d22c3eefbe
+timeCreated: 1475139386
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - animatorController: {instanceID: 0}
+  - tags: {instanceID: 0}
+  - audioSource: {instanceID: 0}
+  - attackSound: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

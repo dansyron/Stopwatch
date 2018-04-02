@@ -1,0 +1,1635 @@
+fileFormatVersion: 2
+guid: b6e29f53cc1de774d8b0baaf112046f5
+timeCreated: 1477524873
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Enemy_Body
+    100002: Enemy_Chest
+    100004: Enemy_Feet
+    100006: Enemy_Hand
+    100008: Enemy_Head
+    100010: Enemy_Legs
+    100012: Enemy_PadsBelt
+    100014: //RootNode
+    100016: Infantry_Enemy_Ctrl_ChestEndEffector
+    100018: Infantry_Enemy_Ctrl_ChestOriginEffector
+    100020: Infantry_Enemy_Ctrl_Head
+    100022: Infantry_Enemy_Ctrl_HeadEffector
+    100024: Infantry_Enemy_Ctrl_Hips
+    100026: Infantry_Enemy_Ctrl_HipsEffector
+    100028: Infantry_Enemy_Ctrl_LeftAnkleEffector
+    100030: Infantry_Enemy_Ctrl_LeftArm
+    100032: Infantry_Enemy_Ctrl_LeftElbowEffector
+    100034: Infantry_Enemy_Ctrl_LeftFoot
+    100036: Infantry_Enemy_Ctrl_LeftFootEffector
+    100038: Infantry_Enemy_Ctrl_LeftForeArm
+    100040: Infantry_Enemy_Ctrl_LeftHand
+    100042: Infantry_Enemy_Ctrl_LeftHandIndex1
+    100044: Infantry_Enemy_Ctrl_LeftHandIndex2
+    100046: Infantry_Enemy_Ctrl_LeftHandIndex3
+    100048: Infantry_Enemy_Ctrl_LeftHandIndex4
+    100050: Infantry_Enemy_Ctrl_LeftHandIndexEffector
+    100052: Infantry_Enemy_Ctrl_LeftHandMiddle1
+    100054: Infantry_Enemy_Ctrl_LeftHandMiddle2
+    100056: Infantry_Enemy_Ctrl_LeftHandMiddle3
+    100058: Infantry_Enemy_Ctrl_LeftHandMiddle4
+    100060: Infantry_Enemy_Ctrl_LeftHandMiddleEffector
+    100062: Infantry_Enemy_Ctrl_LeftHandPinky1
+    100064: Infantry_Enemy_Ctrl_LeftHandPinky2
+    100066: Infantry_Enemy_Ctrl_LeftHandPinky3
+    100068: Infantry_Enemy_Ctrl_LeftHandPinky4
+    100070: Infantry_Enemy_Ctrl_LeftHandPinkyEffector
+    100072: Infantry_Enemy_Ctrl_LeftHandRing1
+    100074: Infantry_Enemy_Ctrl_LeftHandRing2
+    100076: Infantry_Enemy_Ctrl_LeftHandRing3
+    100078: Infantry_Enemy_Ctrl_LeftHandRing4
+    100080: Infantry_Enemy_Ctrl_LeftHandRingEffector
+    100082: Infantry_Enemy_Ctrl_LeftHandThumb1
+    100084: Infantry_Enemy_Ctrl_LeftHandThumb2
+    100086: Infantry_Enemy_Ctrl_LeftHandThumb3
+    100088: Infantry_Enemy_Ctrl_LeftHandThumb4
+    100090: Infantry_Enemy_Ctrl_LeftHandThumbEffector
+    100092: Infantry_Enemy_Ctrl_LeftHipEffector
+    100094: Infantry_Enemy_Ctrl_LeftKneeEffector
+    100096: Infantry_Enemy_Ctrl_LeftLeg
+    100098: Infantry_Enemy_Ctrl_LeftShoulder
+    100100: Infantry_Enemy_Ctrl_LeftShoulderEffector
+    100102: Infantry_Enemy_Ctrl_LeftToeBase
+    100104: Infantry_Enemy_Ctrl_LeftUpLeg
+    100106: Infantry_Enemy_Ctrl_LeftWristEffector
+    100108: Infantry_Enemy_Ctrl_Neck
+    100110: Infantry_Enemy_Ctrl_Reference
+    100112: Infantry_Enemy_Ctrl_RightAnkleEffector
+    100114: Infantry_Enemy_Ctrl_RightArm
+    100116: Infantry_Enemy_Ctrl_RightElbowEffector
+    100118: Infantry_Enemy_Ctrl_RightFoot
+    100120: Infantry_Enemy_Ctrl_RightFootEffector
+    100122: Infantry_Enemy_Ctrl_RightForeArm
+    100124: Infantry_Enemy_Ctrl_RightHand
+    100126: Infantry_Enemy_Ctrl_RightHandIndex1
+    100128: Infantry_Enemy_Ctrl_RightHandIndex2
+    100130: Infantry_Enemy_Ctrl_RightHandIndex3
+    100132: Infantry_Enemy_Ctrl_RightHandIndex4
+    100134: Infantry_Enemy_Ctrl_RightHandIndexEffector
+    100136: Infantry_Enemy_Ctrl_RightHandMiddle1
+    100138: Infantry_Enemy_Ctrl_RightHandMiddle2
+    100140: Infantry_Enemy_Ctrl_RightHandMiddle3
+    100142: Infantry_Enemy_Ctrl_RightHandMiddle4
+    100144: Infantry_Enemy_Ctrl_RightHandMiddleEffector
+    100146: Infantry_Enemy_Ctrl_RightHandPinky1
+    100148: Infantry_Enemy_Ctrl_RightHandPinky2
+    100150: Infantry_Enemy_Ctrl_RightHandPinky3
+    100152: Infantry_Enemy_Ctrl_RightHandPinky4
+    100154: Infantry_Enemy_Ctrl_RightHandPinkyEffector
+    100156: Infantry_Enemy_Ctrl_RightHandRing1
+    100158: Infantry_Enemy_Ctrl_RightHandRing2
+    100160: Infantry_Enemy_Ctrl_RightHandRing3
+    100162: Infantry_Enemy_Ctrl_RightHandRing4
+    100164: Infantry_Enemy_Ctrl_RightHandRingEffector
+    100166: Infantry_Enemy_Ctrl_RightHandThumb1
+    100168: Infantry_Enemy_Ctrl_RightHandThumb2
+    100170: Infantry_Enemy_Ctrl_RightHandThumb3
+    100172: Infantry_Enemy_Ctrl_RightHandThumb4
+    100174: Infantry_Enemy_Ctrl_RightHandThumbEffector
+    100176: Infantry_Enemy_Ctrl_RightHipEffector
+    100178: Infantry_Enemy_Ctrl_RightKneeEffector
+    100180: Infantry_Enemy_Ctrl_RightLeg
+    100182: Infantry_Enemy_Ctrl_RightShoulder
+    100184: Infantry_Enemy_Ctrl_RightShoulderEffector
+    100186: Infantry_Enemy_Ctrl_RightToeBase
+    100188: Infantry_Enemy_Ctrl_RightUpLeg
+    100190: Infantry_Enemy_Ctrl_RightWristEffector
+    100192: Infantry_Enemy_Ctrl_Spine
+    100194: Infantry_Enemy_Ctrl_Spine1
+    100196: Infantry_Enemy_Ctrl_Spine2
+    100198: Infantry_Enemy_Head
+    100200: Infantry_Enemy_Hips
+    100202: Infantry_Enemy_LeftArm
+    100204: Infantry_Enemy_LeftFoot
+    100206: Infantry_Enemy_LeftForeArm
+    100208: Infantry_Enemy_LeftHand
+    100210: Infantry_Enemy_LeftHandIndex1
+    100212: Infantry_Enemy_LeftHandIndex2
+    100214: Infantry_Enemy_LeftHandIndex3
+    100216: Infantry_Enemy_LeftHandIndex4
+    100218: Infantry_Enemy_LeftHandMiddle1
+    100220: Infantry_Enemy_LeftHandMiddle2
+    100222: Infantry_Enemy_LeftHandMiddle3
+    100224: Infantry_Enemy_LeftHandMiddle4
+    100226: Infantry_Enemy_LeftHandPinky1
+    100228: Infantry_Enemy_LeftHandPinky2
+    100230: Infantry_Enemy_LeftHandPinky3
+    100232: Infantry_Enemy_LeftHandPinky4
+    100234: Infantry_Enemy_LeftHandRing1
+    100236: Infantry_Enemy_LeftHandRing2
+    100238: Infantry_Enemy_LeftHandRing3
+    100240: Infantry_Enemy_LeftHandRing4
+    100242: Infantry_Enemy_LeftHandThumb1
+    100244: Infantry_Enemy_LeftHandThumb2
+    100246: Infantry_Enemy_LeftHandThumb3
+    100248: Infantry_Enemy_LeftHandThumb4
+    100250: Infantry_Enemy_LeftLeg
+    100252: Infantry_Enemy_LeftShoulder
+    100254: Infantry_Enemy_LeftToeBase
+    100256: Infantry_Enemy_LeftUpLeg
+    100258: Infantry_Enemy_Neck
+    100260: Infantry_Enemy_Reference
+    100262: Infantry_Enemy_RightArm
+    100264: Infantry_Enemy_RightFoot
+    100266: Infantry_Enemy_RightForeArm
+    100268: Infantry_Enemy_RightHand
+    100270: Infantry_Enemy_RightHandIndex1
+    100272: Infantry_Enemy_RightHandIndex2
+    100274: Infantry_Enemy_RightHandIndex3
+    100276: Infantry_Enemy_RightHandIndex4
+    100278: Infantry_Enemy_RightHandMiddle1
+    100280: Infantry_Enemy_RightHandMiddle2
+    100282: Infantry_Enemy_RightHandMiddle3
+    100284: Infantry_Enemy_RightHandMiddle4
+    100286: Infantry_Enemy_RightHandPinky1
+    100288: Infantry_Enemy_RightHandPinky2
+    100290: Infantry_Enemy_RightHandPinky3
+    100292: Infantry_Enemy_RightHandPinky4
+    100294: Infantry_Enemy_RightHandRing1
+    100296: Infantry_Enemy_RightHandRing2
+    100298: Infantry_Enemy_RightHandRing3
+    100300: Infantry_Enemy_RightHandRing4
+    100302: Infantry_Enemy_RightHandThumb1
+    100304: Infantry_Enemy_RightHandThumb2
+    100306: Infantry_Enemy_RightHandThumb3
+    100308: Infantry_Enemy_RightHandThumb4
+    100310: Infantry_Enemy_RightLeg
+    100312: Infantry_Enemy_RightShoulder
+    100314: Infantry_Enemy_RightToeBase
+    100316: Infantry_Enemy_RightUpLeg
+    100318: Infantry_Enemy_Spine
+    100320: Infantry_Enemy_Spine1
+    100322: Infantry_Enemy_Spine2
+    400000: Enemy_Body
+    400002: Enemy_Chest
+    400004: Enemy_Feet
+    400006: Enemy_Hand
+    400008: Enemy_Head
+    400010: Enemy_Legs
+    400012: Enemy_PadsBelt
+    400014: //RootNode
+    400016: Infantry_Enemy_Ctrl_ChestEndEffector
+    400018: Infantry_Enemy_Ctrl_ChestOriginEffector
+    400020: Infantry_Enemy_Ctrl_Head
+    400022: Infantry_Enemy_Ctrl_HeadEffector
+    400024: Infantry_Enemy_Ctrl_Hips
+    400026: Infantry_Enemy_Ctrl_HipsEffector
+    400028: Infantry_Enemy_Ctrl_LeftAnkleEffector
+    400030: Infantry_Enemy_Ctrl_LeftArm
+    400032: Infantry_Enemy_Ctrl_LeftElbowEffector
+    400034: Infantry_Enemy_Ctrl_LeftFoot
+    400036: Infantry_Enemy_Ctrl_LeftFootEffector
+    400038: Infantry_Enemy_Ctrl_LeftForeArm
+    400040: Infantry_Enemy_Ctrl_LeftHand
+    400042: Infantry_Enemy_Ctrl_LeftHandIndex1
+    400044: Infantry_Enemy_Ctrl_LeftHandIndex2
+    400046: Infantry_Enemy_Ctrl_LeftHandIndex3
+    400048: Infantry_Enemy_Ctrl_LeftHandIndex4
+    400050: Infantry_Enemy_Ctrl_LeftHandIndexEffector
+    400052: Infantry_Enemy_Ctrl_LeftHandMiddle1
+    400054: Infantry_Enemy_Ctrl_LeftHandMiddle2
+    400056: Infantry_Enemy_Ctrl_LeftHandMiddle3
+    400058: Infantry_Enemy_Ctrl_LeftHandMiddle4
+    400060: Infantry_Enemy_Ctrl_LeftHandMiddleEffector
+    400062: Infantry_Enemy_Ctrl_LeftHandPinky1
+    400064: Infantry_Enemy_Ctrl_LeftHandPinky2
+    400066: Infantry_Enemy_Ctrl_LeftHandPinky3
+    400068: Infantry_Enemy_Ctrl_LeftHandPinky4
+    400070: Infantry_Enemy_Ctrl_LeftHandPinkyEffector
+    400072: Infantry_Enemy_Ctrl_LeftHandRing1
+    400074: Infantry_Enemy_Ctrl_LeftHandRing2
+    400076: Infantry_Enemy_Ctrl_LeftHandRing3
+    400078: Infantry_Enemy_Ctrl_LeftHandRing4
+    400080: Infantry_Enemy_Ctrl_LeftHandRingEffector
+    400082: Infantry_Enemy_Ctrl_LeftHandThumb1
+    400084: Infantry_Enemy_Ctrl_LeftHandThumb2
+    400086: Infantry_Enemy_Ctrl_LeftHandThumb3
+    400088: Infantry_Enemy_Ctrl_LeftHandThumb4
+    400090: Infantry_Enemy_Ctrl_LeftHandThumbEffector
+    400092: Infantry_Enemy_Ctrl_LeftHipEffector
+    400094: Infantry_Enemy_Ctrl_LeftKneeEffector
+    400096: Infantry_Enemy_Ctrl_LeftLeg
+    400098: Infantry_Enemy_Ctrl_LeftShoulder
+    400100: Infantry_Enemy_Ctrl_LeftShoulderEffector
+    400102: Infantry_Enemy_Ctrl_LeftToeBase
+    400104: Infantry_Enemy_Ctrl_LeftUpLeg
+    400106: Infantry_Enemy_Ctrl_LeftWristEffector
+    400108: Infantry_Enemy_Ctrl_Neck
+    400110: Infantry_Enemy_Ctrl_Reference
+    400112: Infantry_Enemy_Ctrl_RightAnkleEffector
+    400114: Infantry_Enemy_Ctrl_RightArm
+    400116: Infantry_Enemy_Ctrl_RightElbowEffector
+    400118: Infantry_Enemy_Ctrl_RightFoot
+    400120: Infantry_Enemy_Ctrl_RightFootEffector
+    400122: Infantry_Enemy_Ctrl_RightForeArm
+    400124: Infantry_Enemy_Ctrl_RightHand
+    400126: Infantry_Enemy_Ctrl_RightHandIndex1
+    400128: Infantry_Enemy_Ctrl_RightHandIndex2
+    400130: Infantry_Enemy_Ctrl_RightHandIndex3
+    400132: Infantry_Enemy_Ctrl_RightHandIndex4
+    400134: Infantry_Enemy_Ctrl_RightHandIndexEffector
+    400136: Infantry_Enemy_Ctrl_RightHandMiddle1
+    400138: Infantry_Enemy_Ctrl_RightHandMiddle2
+    400140: Infantry_Enemy_Ctrl_RightHandMiddle3
+    400142: Infantry_Enemy_Ctrl_RightHandMiddle4
+    400144: Infantry_Enemy_Ctrl_RightHandMiddleEffector
+    400146: Infantry_Enemy_Ctrl_RightHandPinky1
+    400148: Infantry_Enemy_Ctrl_RightHandPinky2
+    400150: Infantry_Enemy_Ctrl_RightHandPinky3
+    400152: Infantry_Enemy_Ctrl_RightHandPinky4
+    400154: Infantry_Enemy_Ctrl_RightHandPinkyEffector
+    400156: Infantry_Enemy_Ctrl_RightHandRing1
+    400158: Infantry_Enemy_Ctrl_RightHandRing2
+    400160: Infantry_Enemy_Ctrl_RightHandRing3
+    400162: Infantry_Enemy_Ctrl_RightHandRing4
+    400164: Infantry_Enemy_Ctrl_RightHandRingEffector
+    400166: Infantry_Enemy_Ctrl_RightHandThumb1
+    400168: Infantry_Enemy_Ctrl_RightHandThumb2
+    400170: Infantry_Enemy_Ctrl_RightHandThumb3
+    400172: Infantry_Enemy_Ctrl_RightHandThumb4
+    400174: Infantry_Enemy_Ctrl_RightHandThumbEffector
+    400176: Infantry_Enemy_Ctrl_RightHipEffector
+    400178: Infantry_Enemy_Ctrl_RightKneeEffector
+    400180: Infantry_Enemy_Ctrl_RightLeg
+    400182: Infantry_Enemy_Ctrl_RightShoulder
+    400184: Infantry_Enemy_Ctrl_RightShoulderEffector
+    400186: Infantry_Enemy_Ctrl_RightToeBase
+    400188: Infantry_Enemy_Ctrl_RightUpLeg
+    400190: Infantry_Enemy_Ctrl_RightWristEffector
+    400192: Infantry_Enemy_Ctrl_Spine
+    400194: Infantry_Enemy_Ctrl_Spine1
+    400196: Infantry_Enemy_Ctrl_Spine2
+    400198: Infantry_Enemy_Head
+    400200: Infantry_Enemy_Hips
+    400202: Infantry_Enemy_LeftArm
+    400204: Infantry_Enemy_LeftFoot
+    400206: Infantry_Enemy_LeftForeArm
+    400208: Infantry_Enemy_LeftHand
+    400210: Infantry_Enemy_LeftHandIndex1
+    400212: Infantry_Enemy_LeftHandIndex2
+    400214: Infantry_Enemy_LeftHandIndex3
+    400216: Infantry_Enemy_LeftHandIndex4
+    400218: Infantry_Enemy_LeftHandMiddle1
+    400220: Infantry_Enemy_LeftHandMiddle2
+    400222: Infantry_Enemy_LeftHandMiddle3
+    400224: Infantry_Enemy_LeftHandMiddle4
+    400226: Infantry_Enemy_LeftHandPinky1
+    400228: Infantry_Enemy_LeftHandPinky2
+    400230: Infantry_Enemy_LeftHandPinky3
+    400232: Infantry_Enemy_LeftHandPinky4
+    400234: Infantry_Enemy_LeftHandRing1
+    400236: Infantry_Enemy_LeftHandRing2
+    400238: Infantry_Enemy_LeftHandRing3
+    400240: Infantry_Enemy_LeftHandRing4
+    400242: Infantry_Enemy_LeftHandThumb1
+    400244: Infantry_Enemy_LeftHandThumb2
+    400246: Infantry_Enemy_LeftHandThumb3
+    400248: Infantry_Enemy_LeftHandThumb4
+    400250: Infantry_Enemy_LeftLeg
+    400252: Infantry_Enemy_LeftShoulder
+    400254: Infantry_Enemy_LeftToeBase
+    400256: Infantry_Enemy_LeftUpLeg
+    400258: Infantry_Enemy_Neck
+    400260: Infantry_Enemy_Reference
+    400262: Infantry_Enemy_RightArm
+    400264: Infantry_Enemy_RightFoot
+    400266: Infantry_Enemy_RightForeArm
+    400268: Infantry_Enemy_RightHand
+    400270: Infantry_Enemy_RightHandIndex1
+    400272: Infantry_Enemy_RightHandIndex2
+    400274: Infantry_Enemy_RightHandIndex3
+    400276: Infantry_Enemy_RightHandIndex4
+    400278: Infantry_Enemy_RightHandMiddle1
+    400280: Infantry_Enemy_RightHandMiddle2
+    400282: Infantry_Enemy_RightHandMiddle3
+    400284: Infantry_Enemy_RightHandMiddle4
+    400286: Infantry_Enemy_RightHandPinky1
+    400288: Infantry_Enemy_RightHandPinky2
+    400290: Infantry_Enemy_RightHandPinky3
+    400292: Infantry_Enemy_RightHandPinky4
+    400294: Infantry_Enemy_RightHandRing1
+    400296: Infantry_Enemy_RightHandRing2
+    400298: Infantry_Enemy_RightHandRing3
+    400300: Infantry_Enemy_RightHandRing4
+    400302: Infantry_Enemy_RightHandThumb1
+    400304: Infantry_Enemy_RightHandThumb2
+    400306: Infantry_Enemy_RightHandThumb3
+    400308: Infantry_Enemy_RightHandThumb4
+    400310: Infantry_Enemy_RightLeg
+    400312: Infantry_Enemy_RightShoulder
+    400314: Infantry_Enemy_RightToeBase
+    400316: Infantry_Enemy_RightUpLeg
+    400318: Infantry_Enemy_Spine
+    400320: Infantry_Enemy_Spine1
+    400322: Infantry_Enemy_Spine2
+    2300000: Enemy_Body
+    2300002: Enemy_Chest
+    2300004: Enemy_Feet
+    2300006: Enemy_Hand
+    2300008: Enemy_Head
+    2300010: Enemy_Legs
+    2300012: Enemy_PadsBelt
+    3300000: Enemy_Body
+    3300002: Enemy_Chest
+    3300004: Enemy_Feet
+    3300006: Enemy_Hand
+    3300008: Enemy_Head
+    3300010: Enemy_Legs
+    3300012: Enemy_PadsBelt
+    4300000: Enemy_Legs
+    4300002: Enemy_Feet
+    4300004: Enemy_Hand
+    4300006: Enemy_Chest
+    4300008: Enemy_PadsBelt
+    4300010: Enemy_Body
+    4300012: Enemy_Head
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 3
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    human:
+    - boneName: Infantry_Enemy_Ctrl_Hips
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Infantry_Enemy_Ctrl_LeftUpLeg
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Infantry_Enemy_Ctrl_RightUpLeg
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Infantry_Enemy_Ctrl_LeftLeg
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Infantry_Enemy_Ctrl_RightLeg
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Infantry_Enemy_Ctrl_LeftFoot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Infantry_Enemy_Ctrl_RightFoot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Infantry_Enemy_Ctrl_Spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Infantry_Enemy_Ctrl_Spine1
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Infantry_Enemy_Ctrl_Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Infantry_Enemy_Ctrl_Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Infantry_Enemy_Ctrl_LeftShoulder
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Infantry_Enemy_Ctrl_RightShoulder
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Infantry_Enemy_Ctrl_LeftArm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Infantry_Enemy_Ctrl_RightArm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Infantry_Enemy_Ctrl_LeftForeArm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Infantry_Enemy_Ctrl_RightForeArm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Infantry_Enemy_Ctrl_LeftHand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Infantry_Enemy_Ctrl_RightHand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Infantry_Enemy_Ctrl_LeftToeBase
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Infantry_Enemy_Ctrl_RightToeBase
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Infantry_Enemy_Ctrl_LeftHandThumb1
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Infantry_Enemy_Ctrl_LeftHandThumb2
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Infantry_Enemy_Ctrl_LeftHandThumb3
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Infantry_Enemy_Ctrl_LeftHandIndex1
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Infantry_Enemy_Ctrl_LeftHandIndex2
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Infantry_Enemy_Ctrl_LeftHandIndex3
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Infantry_Enemy_Ctrl_LeftHandMiddle1
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Infantry_Enemy_Ctrl_LeftHandMiddle2
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Infantry_Enemy_Ctrl_LeftHandMiddle3
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Infantry_Enemy_Ctrl_LeftHandRing1
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Infantry_Enemy_Ctrl_LeftHandRing2
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Infantry_Enemy_Ctrl_LeftHandRing3
+      humanName: Left Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Infantry_Enemy_Ctrl_LeftHandPinky1
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Infantry_Enemy_Ctrl_LeftHandPinky2
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Infantry_Enemy_Ctrl_LeftHandPinky3
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Infantry_Enemy_Ctrl_RightHandThumb1
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Infantry_Enemy_Ctrl_RightHandThumb2
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Infantry_Enemy_Ctrl_RightHandThumb3
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Infantry_Enemy_Ctrl_RightHandIndex1
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Infantry_Enemy_Ctrl_RightHandIndex2
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Infantry_Enemy_Ctrl_RightHandIndex3
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Infantry_Enemy_Ctrl_RightHandMiddle1
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Infantry_Enemy_Ctrl_RightHandMiddle2
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Infantry_Enemy_Ctrl_RightHandMiddle3
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Infantry_Enemy_Ctrl_RightHandRing1
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Infantry_Enemy_Ctrl_RightHandRing2
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Infantry_Enemy_Ctrl_RightHandRing3
+      humanName: Right Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Infantry_Enemy_Ctrl_RightHandPinky1
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Infantry_Enemy_Ctrl_RightHandPinky2
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Infantry_Enemy_Ctrl_RightHandPinky3
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Infantry_Enemy(Clone)
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Enemy_Body
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1.1505333, y: 1.1505333, z: 1.1505333}
+      transformModified: 1
+    - name: Enemy_Chest
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1.1505333, y: 1.1505333, z: 1.1505333}
+      transformModified: 1
+    - name: Enemy_Feet
+      position: {x: -0, y: 3.5971223e-16, z: 5.3290704e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1.1505333, y: 0.75849974, z: 1.3550726}
+      transformModified: 1
+    - name: Enemy_Hand
+      position: {x: 5.118572e-14, y: -2.1689315e-14, z: 1.373901e-15}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.84921855, y: 1.251811, z: 1.0258498}
+      transformModified: 1
+    - name: Enemy_Head
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1.1505333, y: 1.1505333, z: 1.1505333}
+      transformModified: 1
+    - name: Enemy_Legs
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1.1505333, y: 1.1505333, z: 1.1505333}
+      transformModified: 1
+    - name: Enemy_PadsBelt
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1.1505333, y: 1.1505333, z: 1.1505333}
+      transformModified: 1
+    - name: Infantry_Enemy_Ctrl_Reference
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Infantry_Enemy_Ctrl_ChestEndEffector
+      position: {x: -0, y: 1.6743289, z: -0.06065628}
+      rotation: {x: 8.612732e-17, y: 5.551115e-17, z: 5.551115e-17, w: 1}
+      scale: {x: 1.5701498, y: 1, z: 1.5701498}
+      transformModified: 1
+    - name: Infantry_Enemy_Ctrl_ChestOriginEffector
+      position: {x: 5.2174225e-17, y: 1.2348821, z: 1.0434845e-16}
+      rotation: {x: -2.4894982e-17, y: 5.551115e-17, z: 5.551115e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Infantry_Enemy_Ctrl_HeadEffector
+      position: {x: 1.00676616e-16, y: 1.9625261, z: 9.282577e-16}
+      rotation: {x: 3.0817192e-16, y: -5.551115e-17, z: -1.6653345e-16, w: 1}
+      scale: {x: 1.308102, y: 1, z: 1.308102}
+      transformModified: 1
+    - name: Infantry_Enemy_Ctrl_Hips
+      position: {x: 1.7783498e-17, y: 1.0799999, z: 3.5566996e-17}
+      rotation: {x: 8.612732e-17, y: -5.551115e-17, z: 5.551115e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Infantry_Enemy_Ctrl_LeftUpLeg
+      position: {x: -0.13109516, y: -0.080089755, z: -6.458025e-18}
+      rotation: {x: -2.1380467e-16, y: 1.5005358e-16, z: -6.938894e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Infantry_Enemy_Ctrl_LeftLeg
+      position: {x: -0.087122954, y: -0.3931663, z: -0.02821305}
+      rotation: {x: -3.469447e-18, y: -7.806256e-18, z: 2.8449465e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Infantry_Enemy_Ctrl_LeftFoot
+      position: {x: -0.044831485, y: -0.37579936, z: -0.035600316}
+      rotation: {x: -2.6714742e-16, y: 1.7347235e-16, z: -1.6653345e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Infantry_Enemy_Ctrl_LeftToeBase
+      position: {x: -0.029239738, y: -0.18954676, z: 0.19296873}
+      rotation: {x: 2.2365468e-32, y: -0, z: -1.2246469e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Infantry_Enemy_Ctrl_RightUpLeg
+      position: {x: 0.13109516, y: -0.080089755, z: -6.458025e-18}
+      rotation: {x: -1.1861172e-16, y: -2.4691024e-32, z: 2.0816682e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Infantry_Enemy_Ctrl_RightLeg
+      position: {x: 0.087122954, y: -0.3931663, z: -0.02821305}
+      rotation: {x: 2.2768246e-18, y: -1.5265567e-16, z: 2.0816682e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Infantry_Enemy_Ctrl_RightFoot
+      position: {x: 0.044831485, y: -0.37579936, z: -0.035600316}
+      rotation: {x: -2.5500435e-16, y: 7.632783e-17, z: 9.7144515e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Infantry_Enemy_Ctrl_RightToeBase
+      position: {x: 0.029239738, y: -0.18954676, z: 0.19296873}
+      rotation: {x: 2.2365468e-32, y: -0, z: -1.2246469e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Infantry_Enemy_Ctrl_Spine
+      position: {x: 3.4390722e-17, y: 0.15488204, z: 6.8781444e-17}
+      rotation: {x: -2.4894982e-17, y: 5.551115e-17, z: 5.551115e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Infantry_Enemy_Ctrl_Spine1
+      position: {x: 4.3095686e-17, y: 0.19408585, z: 1.2928707e-16}
+      rotation: {x: -1.6367286e-16, y: -5.551115e-17, z: 5.551115e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Infantry_Enemy_Ctrl_Spine2
+      position: {x: 2.1547858e-17, y: 0.19408572, z: 1.9393075e-16}
+      rotation: {x: 8.612732e-17, y: 5.551115e-17, z: 5.551115e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Infantry_Enemy_Ctrl_LeftShoulder
+      position: {x: -0.14627394, y: 0.051275365, z: -0.06065628}
+      rotation: {x: 0, y: 0, z: 3.469447e-18, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Infantry_Enemy_Ctrl_LeftArm
+      position: {x: -0.105083294, y: -0.0065548318, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Infantry_Enemy_Ctrl_LeftForeArm
+      position: {x: -0.37059638, y: 2.1316282e-16, z: 0}
+      rotation: {x: -1.25694206e-20, y: -8.489242e-19, z: -1.0670484e-38, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Infantry_Enemy_Ctrl_LeftHand
+      position: {x: -0.28555378, y: 0.008788833, z: 0}
+      rotation: {x: 1.6415121e-20, y: -3.1541736e-19, z: 0.009659949, w: 0.9999534}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Infantry_Enemy_Ctrl_LeftHandIndex1
+      position: {x: -0.14771181, y: 0.02996292, z: 0.05355329}
+      rotation: {x: 1.2078012e-16, y: -1.3877788e-17, z: -3.5114598e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Infantry_Enemy_Ctrl_LeftHandIndex2
+      position: {x: -0.03302925, y: 0.004052124, z: 0.0010092938}
+      rotation: {x: 2.2291197e-16, y: 6.938894e-18, z: 1.6940659e-19, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Infantry_Enemy_Ctrl_LeftHandIndex3
+      position: {x: -0.029225579, y: 0.002907257, z: 0.0009985247}
+      rotation: {x: -0.00019648262, y: 0.0010062939, z: -0.00868068, w: 0.9999618}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Infantry_Enemy_Ctrl_LeftHandIndex4
+      position: {x: -0.03255157, y: -0.000000114440915, z: 0.0007367639}
+      rotation: {x: 1.323489e-23, y: -1.7347235e-18, z: -1.6067983e-22, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Infantry_Enemy_Ctrl_LeftHandMiddle1
+      position: {x: -0.14631426, y: 0.032014273, z: 0.020854222}
+      rotation: {x: 1.6263033e-19, y: 1.3010426e-18, z: -2.5155079e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Infantry_Enemy_Ctrl_LeftHandMiddle2
+      position: {x: -0.039268453, y: 0.004503364, z: 0.00015869379}
+      rotation: {x: 0.000092760245, y: 0.0013890724, z: -0.01646623, w: 0.99986345}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Infantry_Enemy_Ctrl_LeftHandMiddle3
+      position: {x: -0.03576061, y: -2.1316282e-16, z: -0.00020145893}
+      rotation: {x: -2.5832323e-35, y: -1.0408341e-17, z: -2.4818868e-18, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Infantry_Enemy_Ctrl_LeftHandMiddle4
+      position: {x: -0.035079345, y: 0, z: -0.0014218462}
+      rotation: {x: 6.11821e-17, y: 1.2143064e-16, z: 6.371219e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Infantry_Enemy_Ctrl_LeftHandPinky1
+      position: {x: -0.13715498, y: 0.03212391, z: -0.0488248}
+      rotation: {x: 0.010032844, y: 0.05882021, z: -0.019906335, w: 0.9980197}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Infantry_Enemy_Ctrl_LeftHandPinky2
+      position: {x: -0.02579338, y: 0.003222542, z: -0.0034776162}
+      rotation: {x: 0.0014160982, y: -0.019605132, z: -0.028669652, w: 0.9993957}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Infantry_Enemy_Ctrl_LeftHandPinky3
+      position: {x: -0.025468597, y: 0.00000022888183, z: -0.0012581992}
+      rotation: {x: -4.448282e-39, y: 3.469447e-18, z: 1.2821299e-21, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Infantry_Enemy_Ctrl_LeftHandPinky4
+      position: {x: -0.027753066, y: 0.00000022888183, z: -0.0012571191}
+      rotation: {x: 6.11701e-17, y: 5.2041704e-17, z: 6.400267e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Infantry_Enemy_Ctrl_LeftHandRing1
+      position: {x: -0.14195727, y: 0.03004944, z: -0.014413834}
+      rotation: {x: 0.006710541, y: 0.040589772, z: -0.01522949, w: 0.99903727}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Infantry_Enemy_Ctrl_LeftHandRing2
+      position: {x: -0.03181034, y: 0.004101677, z: -0.003084805}
+      rotation: {x: -0.00022738008, y: -0.0039013587, z: -0.0028426351, w: 0.9999884}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Infantry_Enemy_Ctrl_LeftHandRing3
+      position: {x: -0.028548544, y: 0.002108345, z: -0.0006099415}
+      rotation: {x: 1.23246e-32, y: -1.7347235e-18, z: -7.792063e-19, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Infantry_Enemy_Ctrl_LeftHandRing4
+      position: {x: -0.03195419, y: 0, z: -0.00040663005}
+      rotation: {x: 6.122738e-17, y: 1.2490009e-16, z: 6.201148e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Infantry_Enemy_Ctrl_LeftHandThumb1
+      position: {x: -0.06696951, y: -0.0046128845, z: 0.06470971}
+      rotation: {x: -0.2817448, y: -0.082482725, z: -0.19295302, w: 0.93626153}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Infantry_Enemy_Ctrl_LeftHandThumb2
+      position: {x: -0.015102081, y: -0.03140968, z: 0.03547851}
+      rotation: {x: -0.07457578, y: 0.086478226, z: 0.044815842, w: 0.9924473}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Infantry_Enemy_Ctrl_LeftHandThumb3
+      position: {x: -0.021631049, y: -0.029297674, z: 0.0205386}
+      rotation: {x: -0.055363555, y: 0.25059682, z: 0.29916292, w: 0.91904175}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Infantry_Enemy_Ctrl_LeftHandThumb4
+      position: {x: -0.029689522, y: -0.006559181, z: -0.00000009298324}
+      rotation: {x: 2.2228686e-17, y: -1.0061584e-16, z: -1.3877788e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Infantry_Enemy_Ctrl_Neck
+      position: {x: -0, y: 0.19408585, z: 2.5857428e-16}
+      rotation: {x: 1.4163847e-16, y: 5.551115e-17, z: -5.551115e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Infantry_Enemy_Ctrl_Head
+      position: {x: -1.6141148e-17, y: 0.14538653, z: 2.4211717e-16}
+      rotation: {x: 8.612732e-17, y: -5.551115e-17, z: 5.551115e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Infantry_Enemy_Ctrl_RightShoulder
+      position: {x: 0.14627394, y: 0.051275365, z: -0.06065628}
+      rotation: {x: 0, y: 0, z: -3.469447e-18, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Infantry_Enemy_Ctrl_RightArm
+      position: {x: 0.105083294, y: -0.0065548318, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Infantry_Enemy_Ctrl_RightForeArm
+      position: {x: 0.37059638, y: 2.1316282e-16, z: 0}
+      rotation: {x: 1.25694206e-20, y: -8.489242e-19, z: 1.0670484e-38, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Infantry_Enemy_Ctrl_RightHand
+      position: {x: 0.28555378, y: 0.008788833, z: 0}
+      rotation: {x: 5.7511164e-19, y: 6.15444e-17, z: -0.009659949, w: 0.9999534}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Infantry_Enemy_Ctrl_RightHandIndex1
+      position: {x: 0.14771181, y: 0.02996292, z: 0.05355329}
+      rotation: {x: 1.951564e-18, y: -1.7347235e-18, z: -1.5117844e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Infantry_Enemy_Ctrl_RightHandIndex2
+      position: {x: 0.03302925, y: 0.004052124, z: 0.0010092938}
+      rotation: {x: -2.3852448e-18, y: -1.0408341e-17, z: 2.3765034e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Infantry_Enemy_Ctrl_RightHandIndex3
+      position: {x: 0.029225579, y: 0.002907257, z: 0.0009985247}
+      rotation: {x: -0.00019648262, y: -0.0010062939, z: 0.00868068, w: 0.9999618}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Infantry_Enemy_Ctrl_RightHandIndex4
+      position: {x: 0.03255157, y: -0.000000114440915, z: 0.0007367639}
+      rotation: {x: 0, y: 0, z: -3.7688417e-22, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Infantry_Enemy_Ctrl_RightHandMiddle1
+      position: {x: 0.14631426, y: 0.032014273, z: 0.020854222}
+      rotation: {x: 1.3552527e-19, y: -4.3368087e-19, z: 4.0902162e-18, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Infantry_Enemy_Ctrl_RightHandMiddle2
+      position: {x: 0.039268453, y: 0.004503364, z: 0.00015869379}
+      rotation: {x: 0.000092760245, y: -0.0013890724, z: 0.01646623, w: 0.99986345}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Infantry_Enemy_Ctrl_RightHandMiddle3
+      position: {x: 0.03576061, y: -2.1316282e-16, z: -0.00020145893}
+      rotation: {x: -2.4798507e-18, y: -2.4925976e-37, z: 1.0051402e-19, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Infantry_Enemy_Ctrl_RightHandMiddle4
+      position: {x: 0.035079345, y: 0, z: -0.0014218462}
+      rotation: {x: 0, y: 1.0408341e-17, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Infantry_Enemy_Ctrl_RightHandPinky1
+      position: {x: 0.13715498, y: 0.03212391, z: -0.0488248}
+      rotation: {x: 0.010032844, y: -0.05882021, z: 0.019906335, w: 0.9980197}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Infantry_Enemy_Ctrl_RightHandPinky2
+      position: {x: 0.02579338, y: 0.003222542, z: -0.0034776162}
+      rotation: {x: 0.0014160982, y: 0.019605132, z: 0.028669652, w: 0.9993957}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Infantry_Enemy_Ctrl_RightHandPinky3
+      position: {x: 0.025468597, y: 0.00000022888183, z: -0.0012581992}
+      rotation: {x: -4.8842037e-18, y: -3.469447e-18, z: 2.2083572e-19, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Infantry_Enemy_Ctrl_RightHandPinky4
+      position: {x: 0.027753066, y: 0.00000022888183, z: -0.0012571191}
+      rotation: {x: -2.668969e-39, y: -3.469447e-18, z: -7.6927797e-22, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Infantry_Enemy_Ctrl_RightHandRing1
+      position: {x: 0.14195727, y: 0.03004944, z: -0.014413834}
+      rotation: {x: 0.006710541, y: -0.040589772, z: 0.01522949, w: 0.99903727}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Infantry_Enemy_Ctrl_RightHandRing2
+      position: {x: 0.03181034, y: 0.004101677, z: -0.003084805}
+      rotation: {x: -0.00022738008, y: 0.0039013587, z: 0.0028426351, w: 0.9999884}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Infantry_Enemy_Ctrl_RightHandRing3
+      position: {x: 0.028548544, y: 0.002108345, z: -0.0006099415}
+      rotation: {x: -7.7914324e-19, y: -7.725137e-39, z: 9.914913e-21, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Infantry_Enemy_Ctrl_RightHandRing4
+      position: {x: 0.03195419, y: 0, z: -0.00040663005}
+      rotation: {x: 0, y: 1.7347235e-18, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Infantry_Enemy_Ctrl_RightHandThumb1
+      position: {x: 0.06696951, y: -0.0046128845, z: 0.06470971}
+      rotation: {x: -0.2817448, y: 0.082482725, z: 0.19295302, w: 0.93626153}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Infantry_Enemy_Ctrl_RightHandThumb2
+      position: {x: 0.015102081, y: -0.03140968, z: 0.03547851}
+      rotation: {x: -0.07457578, y: -0.086478226, z: -0.044815842, w: 0.9924473}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Infantry_Enemy_Ctrl_RightHandThumb3
+      position: {x: 0.021631049, y: -0.029297674, z: 0.0205386}
+      rotation: {x: -0.055363555, y: -0.25059682, z: -0.29916292, w: 0.91904175}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Infantry_Enemy_Ctrl_RightHandThumb4
+      position: {x: 0.029689522, y: -0.006559181, z: -0.00000009298324}
+      rotation: {x: -1.10002104e-16, y: 2.4776428e-17, z: -1.3877788e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Infantry_Enemy_Ctrl_HipsEffector
+      position: {x: -0, y: 0.9999102, z: 2.9108972e-17}
+      rotation: {x: 3.0817192e-16, y: -5.551115e-17, z: -1.6653345e-16, w: 1}
+      scale: {x: 1.4432116, y: 1, z: 1.4432116}
+      transformModified: 1
+    - name: Infantry_Enemy_Ctrl_LeftAnkleEffector
+      position: {x: -0.2630496, y: 0.23094457, z: -0.06381336}
+      rotation: {x: -7.7889084e-16, y: 2.5673907e-16, z: -4.1633363e-17, w: 1}
+      scale: {x: 1.3000191, y: 1.3000191, z: 1.3000191}
+      transformModified: 1
+    - name: Infantry_Enemy_Ctrl_LeftElbowEffector
+      position: {x: -0.6219536, y: 1.6677742, z: -0.06065628}
+      rotation: {x: 1.2090978e-19, y: 3.4878844e-18, z: -4.2171936e-37, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Infantry_Enemy_Ctrl_LeftFootEffector
+      position: {x: -0.29228935, y: 0.041397803, z: 0.12915537}
+      rotation: {x: 2.2365468e-32, y: -0, z: -1.2246469e-16, w: 1}
+      scale: {x: 1.3000191, y: 1.3000191, z: 1.3000191}
+      transformModified: 1
+    - name: Infantry_Enemy_Ctrl_LeftHandIndexEffector
+      position: {x: -1.1500256, y: 1.713485, z: -0.0043584043}
+      rotation: {x: 6.617445e-24, y: -1e-45, z: -1.6078323e-22, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Infantry_Enemy_Ctrl_LeftHandMiddleEffector
+      position: {x: -1.16393, y: 1.7130806, z: -0.041266672}
+      rotation: {x: 6.11821e-17, y: 1.2143064e-16, z: 6.371219e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Infantry_Enemy_Ctrl_LeftHandPinkyEffector
+      position: {x: -1.1236774, y: 1.7119099, z: -0.115474015}
+      rotation: {x: 6.11701e-17, y: 5.2041704e-17, z: 6.400267e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Infantry_Enemy_Ctrl_LeftHandRingEffector
+      position: {x: -1.1417776, y: 1.7128224, z: -0.07917149}
+      rotation: {x: 6.122738e-17, y: 1.2490009e-16, z: 6.201148e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Infantry_Enemy_Ctrl_LeftHandThumbEffector
+      position: {x: -1.0408995, y: 1.6046836, z: 0.060070448}
+      rotation: {x: 2.2228686e-17, y: -1.0061584e-16, z: -1.3877788e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Infantry_Enemy_Ctrl_LeftHipEffector
+      position: {x: -0.13109516, y: 0.9999102, z: 2.9108972e-17}
+      rotation: {x: -2.1380467e-16, y: 1.5005358e-16, z: -6.938894e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Infantry_Enemy_Ctrl_LeftKneeEffector
+      position: {x: -0.21821812, y: 0.60674393, z: -0.02821305}
+      rotation: {x: -3.469447e-18, y: -7.806256e-18, z: 2.8449465e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Infantry_Enemy_Ctrl_LeftShoulderEffector
+      position: {x: -0.25135723, y: 1.6677742, z: -0.06065628}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.428012, z: 1.428012}
+      transformModified: 1
+    - name: Infantry_Enemy_Ctrl_LeftWristEffector
+      position: {x: -0.90750736, y: 1.676563, z: -0.06065628}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1.3000191, y: 1.3000191, z: 1.3000191}
+      transformModified: 1
+    - name: Infantry_Enemy_Ctrl_RightAnkleEffector
+      position: {x: 0.2630496, y: 0.23094457, z: -0.06381336}
+      rotation: {x: -1.4302795e-15, y: 3.469447e-17, z: 3.469447e-17, w: 1}
+      scale: {x: 1.3000191, y: 1.3000191, z: 1.3000191}
+      transformModified: 1
+    - name: Infantry_Enemy_Ctrl_RightElbowEffector
+      position: {x: 0.6219536, y: 1.6677742, z: -0.06065628}
+      rotation: {x: 1.25694206e-20, y: -8.489242e-19, z: 1.0670484e-38, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Infantry_Enemy_Ctrl_RightFootEffector
+      position: {x: 0.29228935, y: 0.041397803, z: 0.12915537}
+      rotation: {x: 2.2365468e-32, y: -0, z: -1.2246469e-16, w: 1}
+      scale: {x: 1.3000191, y: 1.3000191, z: 1.3000191}
+      transformModified: 1
+    - name: Infantry_Enemy_Ctrl_RightHandIndexEffector
+      position: {x: 1.1500256, y: 1.713485, z: -0.0043584043}
+      rotation: {x: 0, y: 0, z: -3.7688417e-22, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Infantry_Enemy_Ctrl_RightHandMiddleEffector
+      position: {x: 1.16393, y: 1.7130806, z: -0.041266672}
+      rotation: {x: 0, y: 1.0408341e-17, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Infantry_Enemy_Ctrl_RightHandPinkyEffector
+      position: {x: 1.1236774, y: 1.7119099, z: -0.115474015}
+      rotation: {x: -2.668969e-39, y: -3.469447e-18, z: -7.6927797e-22, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Infantry_Enemy_Ctrl_RightHandRingEffector
+      position: {x: 1.1417776, y: 1.7128224, z: -0.07917149}
+      rotation: {x: 0, y: 1.7347235e-18, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Infantry_Enemy_Ctrl_RightHandThumbEffector
+      position: {x: 1.0408995, y: 1.6046836, z: 0.060070448}
+      rotation: {x: -1.10002104e-16, y: 2.4776428e-17, z: -1.3877788e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Infantry_Enemy_Ctrl_RightHipEffector
+      position: {x: 0.13109516, y: 0.9999102, z: 2.9108972e-17}
+      rotation: {x: -1.1861172e-16, y: -2.4691024e-32, z: 2.0816682e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Infantry_Enemy_Ctrl_RightKneeEffector
+      position: {x: 0.21821812, y: 0.60674393, z: -0.02821305}
+      rotation: {x: 2.2768246e-18, y: -1.5265567e-16, z: 2.0816682e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Infantry_Enemy_Ctrl_RightShoulderEffector
+      position: {x: 0.25135723, y: 1.6677742, z: -0.06065628}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.428012, z: 1.428012}
+      transformModified: 1
+    - name: Infantry_Enemy_Ctrl_RightWristEffector
+      position: {x: 0.90750736, y: 1.676563, z: -0.06065628}
+      rotation: {x: -1.2325952e-32, y: 6.123234e-17, z: 0, w: 1}
+      scale: {x: 1.3000191, y: 1.3000191, z: 1.3000191}
+      transformModified: 1
+    - name: Infantry_Enemy_Reference
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Infantry_Enemy_Hips
+      position: {x: 8.891749e-18, y: 1.0799999, z: 6.2242244e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Infantry_Enemy_LeftUpLeg
+      position: {x: -0.13109516, y: -0.080089755, z: 1.0530186e-17}
+      rotation: {x: 0.00000076927245, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Infantry_Enemy_LeftLeg
+      position: {x: -0.087122954, y: -0.39316633, z: -0.028212443}
+      rotation: {x: -0.0000008288771, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Infantry_Enemy_LeftFoot
+      position: {x: -0.044831485, y: -0.37579936, z: -0.03560036}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Infantry_Enemy_LeftToeBase
+      position: {x: -0.029239738, y: -0.1895468, z: 0.1929687}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Infantry_Enemy_RightUpLeg
+      position: {x: 0.13109516, y: -0.080089755, z: -7.679673e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Infantry_Enemy_RightLeg
+      position: {x: 0.087122954, y: -0.3931663, z: -0.02821305}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Infantry_Enemy_RightFoot
+      position: {x: 0.044831485, y: -0.37579936, z: -0.035600312}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Infantry_Enemy_RightToeBase
+      position: {x: 0.029239738, y: -0.18954676, z: 0.19296873}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Infantry_Enemy_Spine
+      position: {x: 5.1586083e-17, y: 0.15488204, z: 1.2036754e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Infantry_Enemy_Spine1
+      position: {x: 6.464354e-17, y: 0.19408585, z: 6.464351e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Infantry_Enemy_Spine2
+      position: {x: 6.464354e-17, y: 0.19408572, z: -2.1547704e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Infantry_Enemy_LeftShoulder
+      position: {x: -0.14627394, y: 0.051275365, z: -0.06065628}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Infantry_Enemy_LeftArm
+      position: {x: -0.105083294, y: -0.0065548318, z: 1.3322676e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Infantry_Enemy_LeftForeArm
+      position: {x: -0.37059638, y: 2.1316282e-16, z: -1.3322676e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Infantry_Enemy_LeftHand
+      position: {x: -0.28555378, y: 0.008788833, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Infantry_Enemy_LeftHandIndex1
+      position: {x: -0.14771181, y: 0.02996292, z: 0.05355329}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Infantry_Enemy_LeftHandIndex2
+      position: {x: -0.03302925, y: 0.004052124, z: 0.0010092938}
+      rotation: {x: 0, y: -0.000005316577, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Infantry_Enemy_LeftHandIndex3
+      position: {x: -0.029225567, y: 0.002907257, z: 0.0009988355}
+      rotation: {x: 0, y: 0.00007974865, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Infantry_Enemy_LeftHandIndex4
+      position: {x: -0.032551683, y: -0.000000114440915, z: 0.0007319181}
+      rotation: {x: 0, y: -0.00055824063, z: -0, w: 0.9999999}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Infantry_Enemy_LeftHandMiddle1
+      position: {x: -0.14631426, y: 0.032014273, z: 0.020854222}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Infantry_Enemy_LeftHandMiddle2
+      position: {x: -0.039268453, y: 0.004503364, z: 0.00015869379}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Infantry_Enemy_LeftHandMiddle3
+      position: {x: -0.03576061, y: -2.1316282e-16, z: -0.00020145893}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Infantry_Enemy_LeftHandMiddle4
+      position: {x: -0.035079345, y: 2.1316282e-16, z: -0.0014218462}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Infantry_Enemy_LeftHandPinky1
+      position: {x: -0.13715498, y: 0.03212391, z: -0.0488248}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Infantry_Enemy_LeftHandPinky2
+      position: {x: -0.02579338, y: 0.003222542, z: -0.0034776162}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Infantry_Enemy_LeftHandPinky3
+      position: {x: -0.025468597, y: 0.00000022888183, z: -0.0012581992}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Infantry_Enemy_LeftHandPinky4
+      position: {x: -0.027753066, y: 0.00000022888183, z: -0.0012571191}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Infantry_Enemy_LeftHandRing1
+      position: {x: -0.14195727, y: 0.03004944, z: -0.014413834}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Infantry_Enemy_LeftHandRing2
+      position: {x: -0.03181034, y: 0.004101677, z: -0.003084805}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Infantry_Enemy_LeftHandRing3
+      position: {x: -0.028548544, y: 0.002108345, z: -0.0006099415}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Infantry_Enemy_LeftHandRing4
+      position: {x: -0.03195419, y: 0, z: -0.00040663005}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Infantry_Enemy_LeftHandThumb1
+      position: {x: -0.06696951, y: -0.0046128845, z: 0.06470971}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Infantry_Enemy_LeftHandThumb2
+      position: {x: -0.015102081, y: -0.03140968, z: 0.03547851}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Infantry_Enemy_LeftHandThumb3
+      position: {x: -0.021631049, y: -0.029297674, z: 0.0205386}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Infantry_Enemy_LeftHandThumb4
+      position: {x: -0.029689522, y: -0.006559181, z: -0.00000009298324}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Infantry_Enemy_Neck
+      position: {x: -0, y: 0.19408585, z: -2.1547856e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Infantry_Enemy_Head
+      position: {x: -3.2282295e-17, y: 0.14538653, z: -3.5510538e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Infantry_Enemy_RightShoulder
+      position: {x: 0.14627394, y: 0.051275365, z: -0.06065628}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Infantry_Enemy_RightArm
+      position: {x: 0.105083294, y: -0.0065548318, z: 1.3322676e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Infantry_Enemy_RightForeArm
+      position: {x: 0.37059638, y: 2.1316282e-16, z: -1.3322676e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Infantry_Enemy_RightHand
+      position: {x: 0.28555378, y: 0.008788833, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Infantry_Enemy_RightHandIndex1
+      position: {x: 0.14771181, y: 0.02996292, z: 0.05355329}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Infantry_Enemy_RightHandIndex2
+      position: {x: 0.03302925, y: 0.004052124, z: 0.0010092938}
+      rotation: {x: 0, y: -0.0000053167487, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Infantry_Enemy_RightHandIndex3
+      position: {x: 0.02922559, y: 0.002907257, z: 0.0009982139}
+      rotation: {x: 0, y: 0.00007975123, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Infantry_Enemy_RightHandIndex4
+      position: {x: 0.03255146, y: -0.000000114440915, z: 0.00074160984}
+      rotation: {x: 0, y: -0.0005582587, z: -0, w: 0.9999999}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Infantry_Enemy_RightHandMiddle1
+      position: {x: 0.14631426, y: 0.032014273, z: 0.020854222}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Infantry_Enemy_RightHandMiddle2
+      position: {x: 0.039268453, y: 0.004503364, z: 0.00015869379}
+      rotation: {x: 0, y: -0.0000053167487, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Infantry_Enemy_RightHandMiddle3
+      position: {x: 0.035760608, y: 0, z: -0.00020183917}
+      rotation: {x: 0, y: 0.00007975123, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Infantry_Enemy_RightHandMiddle4
+      position: {x: 0.035079554, y: 0, z: -0.0014166238}
+      rotation: {x: 0, y: -0.0005582587, z: -0, w: 0.9999999}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Infantry_Enemy_RightHandPinky1
+      position: {x: 0.13715498, y: 0.03212391, z: -0.0488248}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Infantry_Enemy_RightHandPinky2
+      position: {x: 0.02579338, y: 0.003222542, z: -0.0034776162}
+      rotation: {x: 0, y: -0.0000053167487, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Infantry_Enemy_RightHandPinky3
+      position: {x: 0.025468584, y: 0.00000022888183, z: -0.0012584699}
+      rotation: {x: 0, y: 0.00007975123, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Infantry_Enemy_RightHandPinky4
+      position: {x: 0.027753253, y: 0.00000022888183, z: -0.0012529875}
+      rotation: {x: 0, y: -0.0005582587, z: -0, w: 0.9999999}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Infantry_Enemy_RightHandRing1
+      position: {x: 0.14195727, y: 0.03004944, z: -0.014413834}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Infantry_Enemy_RightHandRing2
+      position: {x: 0.03181034, y: 0.004101677, z: -0.003084805}
+      rotation: {x: 0, y: -0.0000053167487, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Infantry_Enemy_RightHandRing3
+      position: {x: 0.028548539, y: 0.002108345, z: -0.00061024504}
+      rotation: {x: 0, y: 0.00007975123, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Infantry_Enemy_RightHandRing4
+      position: {x: 0.031954255, y: 0, z: -0.00040187303}
+      rotation: {x: 0, y: -0.0005582587, z: -0, w: 0.9999999}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Infantry_Enemy_RightHandThumb1
+      position: {x: 0.06696951, y: -0.0046128845, z: 0.06470971}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Infantry_Enemy_RightHandThumb2
+      position: {x: 0.015102081, y: -0.03140968, z: 0.03547851}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Infantry_Enemy_RightHandThumb3
+      position: {x: 0.021631049, y: -0.029297674, z: 0.0205386}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Infantry_Enemy_RightHandThumb4
+      position: {x: 0.029689522, y: -0.006559181, z: -0.00000009298324}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

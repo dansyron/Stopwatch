@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 1b774bc88534a044d9fbbc2d7acd9d80
+timeCreated: 1479789781
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - playerCharacter: {instanceID: 0}
+  - mainBlock: {instanceID: 0}
+  - enemyPrefab: {instanceID: 0}
+  - topBlock: {instanceID: 0}
+  - background: {fileID: 1000011103218472, guid: ee1730bdd5f22174892865dfbc01f042,
+      type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

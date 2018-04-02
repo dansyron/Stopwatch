@@ -1,0 +1,10 @@
+Animations	|X
+Idle		|x 0-60
+Run		|x 65-125
+Slide		|x 145-160
+Transition?	|x unity
+Jump		|x 165-180
+Attack		|x 185-215
+Hit		|x 220-270
+Die1		|x 275-305
+Die2		|

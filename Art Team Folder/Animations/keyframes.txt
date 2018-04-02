@@ -1,0 +1,27 @@
+NEW
+Animations	|X
+Idle		|x 20-49
+Run		|x 65-95
+Slide		|x 105-125
+Pivot		|x 130-145
+Turn		|x 155-165
+Jump		|Unity assets
+Attack		|175-190
+new attack	|197-204
+Hit		|
+Die1		|
+Die2		|
+
+
+
+OLD
+Animations	|X
+Idle		|x 0-60
+Run		|x 65-125
+Slide		|x 145-160
+Turn		|x 310-320
+Jump		|x 165-180
+Attack		|x 185-215
+Hit		|x 220-270
+Die1		|x 275-305
+Die2		|
